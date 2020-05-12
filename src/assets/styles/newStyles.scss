@@ -1,0 +1,48 @@
+.film-title{
+    font-size: 26px;
+    color: black;
+    text-align: center;
+}
+.film-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.favorite-film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.favorite-film h2{
+    margin-bottom: 5%;
+}
+.error-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.error-container h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.error-container hr{
+    width: 70%;
+    opacity: 50%;
+    margin-bottom: 3%;
+}
+.error-container p{
+    font-size: 18px;
+    text-align: center;
+}
+.year-container{
+    width: 15%;
+    background-color: coral;
+    color: white;
+    align-items: center;
+    margin-bottom: 2%;
+}
