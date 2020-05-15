@@ -58,7 +58,7 @@ export default class Peliculas extends Component{
         
  
 
-            <h2 className='film-title'>Películas</h2>
+            <h2 className='film-title'>Listado de Películas</h2>
 
             {this.state.peliculas.map((pelicula, i) => {
                 return(

@@ -2,9 +2,15 @@ import React, { Component } from 'react';
 
 export default class Pelicula extends Component{
 
+    state = { clase: 'icon-favorito-vacio' }
+
     marcar = () => {
         this.props.marcarFavorita(this.props.pelicula);
-        console.log(this.props.pelicula)
+        if (this.state.clase === 'icon-favorito-vacio'){
+            this.setState({clase: 'icon-favorito-marcado'});
+        } else {
+            this.setState({clase: 'icon-favorito-vacio'});
+        }
     };
 
     render(){
@@ -24,7 +30,7 @@ export default class Pelicula extends Component{
                     <span className="dateArt">Hace 5 minutos</span>
                     <a href="/article.html">Leer más</a>
             </div>
-            <span className='icon-favorito-vacio' onClick={this.marcar}/>
+            <span className= {this.state.clase} onClick={this.marcar}/>
             </article>
         )};
 };

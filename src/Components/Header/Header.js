@@ -34,7 +34,7 @@ class Header extends Component {
                 <NavLink to = '/peliculas' activeClassName='active'>Películas</NavLink>
               </li>
               <li>
-                <NavLink to = '/peliculas' activeClassName='active'>Pág 2</NavLink>
+                <NavLink to = '/pagina2' activeClassName='active'>Pág2</NavLink>
               </li>
             </ul>
           </nav>

@@ -174,8 +174,7 @@
 }
 .articles {
   width: 70%;
-  padding: 20px;
-  margin: 20px;
+  margin: 2% 1% 2% 2%;
 }
 .sidebar {
   align-self: flex-start;
@@ -183,8 +182,7 @@
   flex-direction: column;
   width: 30%;
   height: 30%;
-  padding: 20px;
-  margin: 20px;
+  margin: 2% 2% 2% 1%;
 }
 .menuBlog {
   margin: 10px;
@@ -323,7 +321,7 @@ textarea {
   text-align: justify;
 }
 .div-form {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -331,14 +329,27 @@ textarea {
   align-items: center;
 }
 .mid-form {
-  width: 60%;
+  width: 100%;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .form-group {
+  width: 90%;
   text-align: left;
-  padding: 10px;
+  margin-bottom: 3%;
   justify-content: center;
+  align-items: center;
 }
+.form-group input{
+  margin-top: 2%;
+}
+.form-group textarea{
+  margin-top: 2%;
+}
+
 .mid-form h2 {
   text-align: center;
 }
