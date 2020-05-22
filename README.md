@@ -1,4 +1,4 @@
-# Proyecto de REACTJS en el que he realizado un BLOG con peticiones HTTP a una API_REST para poder utilizar artículos, borrarlos, editarlos, mostrarlos y buscarlos. Para poder utilizarlo es neceseario tener npm instalado y clonar el repositorio e iniciarlo con el comando:
+# Proyecto de REACTJS en el que he realizado un BLOG con peticiones HTTP a una API_REST para poder utilizar artículos, borrarlos, editarlos, mostrarlos y buscarlos. Para poder utilizarlo es necesario tener npm instalado, clonar el repositorio, clonar el repositorio del Back End, e iniciarlo con el comando:
 
     npm start
 
